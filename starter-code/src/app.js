@@ -1,5 +1,5 @@
-import React from 'react';
-import { connect } from 'react-redux';
+import React from "react";
+import { connect } from "react-redux";
 
 const Header = () => {
   return (
@@ -11,7 +11,7 @@ const Header = () => {
 
 class Footer extends React.Component {
   render() {
-    return <footer>&copy; 2018 Code Fellows</footer>;
+    return <footer>&copy; 2018 Jet City Software</footer>;
   }
 }
 
@@ -19,7 +19,7 @@ class Main extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      stuff: 0,
+      stuff: 0
     };
   }
 
